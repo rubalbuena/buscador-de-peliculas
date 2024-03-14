@@ -28,12 +28,13 @@ exports.getSort = function(argumentoDeConsola) {
     if (argumentoDeConsola[0].toLowerCase().startsWith("--tag")){
         console.table(pelisTag);
     } 
-    const argumento = argumentoDeConsola[1];
+    const argumento = argumentoDeConsola[1].toLowerCase();
     const peliDeTitulo = getPeliculas().filter(pelicula =>{
         return pelicula.title.includes(argumento);
     });
-    if (argumentoDeConsola[0].startsWith("--search")){
+    if (argumentoDeConsola[0].toLowerCase().startsWith("--search")){
         console.table(peliDeTitulo)
         
     } 
 }   
+
