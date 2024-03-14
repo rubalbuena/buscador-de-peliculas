@@ -1,0 +1,28 @@
+[{
+    "title": "hombres de negro 4",
+    "rating": 4,
+    "tags": ["acción", "favorita", "nueva"]
+    
+  },
+  {
+    "title": "un buendia para morir",
+    "rating": 3,
+    "tags": ["favorita", "nueva"]
+    
+  },
+{
+    "title":"roki",
+    "rating":8,
+    "tags":["favorita","acción"]
+},
+{
+    "title": "sociedad de la nieve",
+    "rating":9,
+    "tags":["favorita","suspenso","nueva"]
+},
+{
+    "title": "amanecer en new york",
+    "rating":2,
+    "tags":["comedia", "romantica"]
+}
+]
